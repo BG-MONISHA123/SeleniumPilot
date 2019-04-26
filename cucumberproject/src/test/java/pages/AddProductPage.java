@@ -26,7 +26,7 @@ public class AddProductPage
 	public static void scatagory()
 	{
 		Select sa = new Select(subcatogory);
-		sa.selectByValue("112112");
+		sa.selectByValue("112102");
 	}
 	
 	@FindBy(how=How.ID,using = "prodid")

@@ -35,6 +35,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/seleniumWebDriverProject"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/HandsOnProject"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/casestudy"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

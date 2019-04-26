@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:27:22.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9789880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddcartStepDefination.before()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "The one when the user added atleast one product to the cart and performing succesfull payment.",
+        "description": "",
+        "id": "casestudy2.feature;the-one-when-the-user-added-atleast-one-product-to-the-cart-and-performing-succesfull-payment.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3308208900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user login select product",
+            "match": {
+              "location": "AddcartStepDefination.user_login_select_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341472900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Lalitha added a wear to the cart",
+            "match": {
+              "location": "AddcartStepDefination.lalitha_added_a_wear_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 448865400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "checkout for payment",
+            "match": {
+              "location": "AddcartStepDefination.checkout_for_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3193067600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "fills transaction details",
+            "match": {
+              "location": "AddcartStepDefination.fills_transaction_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43787300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the product is succesfully ordered",
+            "match": {
+              "location": "AddcartStepDefination.the_product_is_succesfully_ordered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "casestudy2.Feature",
+    "description": "",
+    "id": "casestudy2.feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeliton/casestudy2.feature",
+    "tags": []
+  }
+]

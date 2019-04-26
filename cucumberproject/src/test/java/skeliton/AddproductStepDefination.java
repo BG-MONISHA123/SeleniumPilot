@@ -17,16 +17,7 @@ import testmeappUtility.DriverUtility;
 public class AddproductStepDefination 
 {
 	   WebDriver driver ;
-	   @Before
-	public  void before()
-	{
-		 driver = DriverUtility.getDriver("chrome");
-		 PageFactory.initElements(driver, AdminLoginPage.class);
-		 PageFactory.initElements(driver,AddProductPage.class);
-		 driver.manage().window().maximize();	
-		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-	}
+	
 	
 	@Given("the URL of TestMeApp")
 	public void the_URL_of_TestMeApp() 

@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skeliton/Casestudy1.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skeliton/casestudy2.feature");
 formatter.feature({
-  "name": "Casestudy1.feature",
+  "name": "casestudy2.Feature",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "admin login",
+  "name": "The one when the user added atleast one product to the cart and performing succesfull payment.",
   "description": "",
   "keyword": "Scenario"
 });
@@ -13,61 +13,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the URL of TestMeApp",
+  "name": "user login select product",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddproductStepDefination.the_URL_of_TestMeApp()"
+  "location": "AddcartStepDefination.user_login_select_product()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "The admin enters login data",
+  "name": "Lalitha added a wear to the cart",
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddproductStepDefination.the_admin_enters_login_data()"
+  "location": "AddcartStepDefination.lalitha_added_a_wear_to_the_cart()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "admin is in Admin Home Page",
+  "name": "checkout for payment",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddcartStepDefination.checkout_for_payment()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "fills transaction details",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddcartStepDefination.fills_transaction_details()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the product is succesfully ordered",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddproductStepDefination.admin_is_in_Admin_Home_Page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "clicks on add product",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "AddproductStepDefination.clicks_on_add_product()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "fills data to add product",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "AddproductStepDefination.fills_data_to_add_product()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The Product sucessfully added",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "AddproductStepDefination.the_Product_sucessfully_added()"
+  "location": "AddcartStepDefination.the_product_is_succesfully_ordered()"
 });
 formatter.result({
   "status": "passed"
